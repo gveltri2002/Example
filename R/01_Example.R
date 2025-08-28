@@ -5,7 +5,11 @@ library(here)
 
 # Saving data
 df <- iris
+write.csv(df, here("data", "example.csv"))
 
-write.csv(df, "example")
+# Saving graphs
+
+          
+
 
           
